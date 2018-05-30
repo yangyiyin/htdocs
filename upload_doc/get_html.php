@@ -7,7 +7,7 @@
  */
 
 $name = $_GET['name'];
-if (file_exists(__DIR__.'/files/'.$name)) {
+if (file_exists(dirname(__FILE__).'/files/'.$name)) {
     echo 'success';
 } else {
     echo 'fail';
