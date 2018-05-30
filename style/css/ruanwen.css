@@ -1,0 +1,196 @@
+﻿/*baike*/
+.animal{-webkit-animation-name: fadeInUp; position:relative;
+    animation-name: fadeInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;}
+
+@keyframes fadeInUp
+{
+		0%, 60%, 75%, 90%, 100% {
+  transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+}
+0%   { opacity:0;transform:translate3d(0,50px,0);}
+100% { opacity:1;transform:translate3d(0,0,0);}
+}
+
+@-moz-keyframes fadeInUp /* Firefox */
+{
+		0%, 60%, 75%, 90%, 100% {
+    -moz-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+}
+0%   { opacity:0; transform:translate3d(0,50px,0);}
+100% { opacity:1; transform:translate3d(0,0,0);}
+}
+
+@-webkit-keyframes fadeInUp /* Safari 和 Chrome */
+{
+		0%, 60%, 75%, 90%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+}
+0%   { opacity:0; transform:translate3d(0,50px,0);}
+100% { opacity:1; transform:translate3d(0,0,0);}
+}
+
+@-o-keyframes fadeInUp /* Opera */
+{
+		0%, 60%, 75%, 90%, 100% {
+    -o-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+}
+0%   { opacity:0; transform:translate3d(0,50px,0);}
+100% { opacity:1;transform:translate3d(0,0,0);}
+}
+/*ruanwen*/
+.head_title{text-align:center; cursor:default;}
+.head_title h1{font-size:36px; color:#08A5E0;font-weight:400;}
+.head_title p{font-size:14px; color:#999;}
+
+.banner{height:434px; background:url(/style/css/img/rwbanner.jpg) no-repeat center center; overflow:hidden;}
+.banner .title{width:; float:right; margin-top:120px; margin-right:120px;}
+.banner .title h1{font-size:40px; color:#fff; font-weight:bold;  text-align:center;}
+.banner .title p{font-size:18px; color:#fff; text-align:left; padding-top:15px;  cursor:default;}
+.banner .title .text_list{width:360px; padding-top:20px;}
+.banner .title .text_list p{font-size:16px; color:#fff; padding-left:25px; padding-top:0; width:145px; height:30px; float:left; line-height:30px; background:url(/style/css/img/banner_hook.png) no-repeat left center; display:inline-block;}
+
+.f-left{float:left;}
+.f-right{float:right;}
+.t-left{text-align:left;}
+.t-right{text-right:right;}
+.content-in{width:1200px; margin:0 auto;}
+.floor{padding-top:40px; padding-bottom:50px; overflow:hidden;}
+.center_center{position:absolute; left:0; right:0; top:0; bottom:0; margin:auto;}
+
+/*floor1*/
+.floor1{background:#fff;}
+.floor1 .con_title{width:1000px; margin:30px auto 0; cursor:default;}
+.floor1 .con_title p{font-size:16px; color:#666; text-align:center; padding-top:20px; padding-right:25px; line-height:150%;}
+.floor1 .con_title .img_left{float:left;}
+.floor1 .con_title .img_right{float:right; margin-top:-20px;}
+
+.floor1 ul{width:auto; margin:110px auto 60px; width:1180px;}
+.floor1 ul li{float:left; margin:0 10px; text-align:center; cursor:default;}
+.floor1 ul li img{transition:0.5s;}
+.floor1 ul li:hover img{
+    opacity:0.5;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter:gray;
+	}
+.floor1 ul li p{font-size:14px; color:#999; padding-top:10px;}
+.floor1 ul .arrow img{padding-top:40px;}
+
+
+/*floor2*/
+.floor2{background:#f9f9f9;}
+.floor2 ul{margin-top:90px; margin-bottom:30px;}
+.floor2 ul li{float:left; text-align:center; width:200px; margin-right:50px; cursor:default;}
+.floor2 ul li img{width:107px; height:107px; transition:0.5s;}
+.floor2 ul li:hover img{
+    opacity:0.5;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter:gray;
+	}
+.floor2 ul li h2{font-size:16px; color:#666; padding-top:15px;}
+.floor2 ul li p{font-size:12px; color:#999; text-align:left; padding-top:5px;}
+
+/*floor3*/
+.floor3{background:#fff;}
+.floor3 .mid_wrap{width:350px; height:330px; background:url(/style/css/img/f3_bg.png) no-repeat center center; margin:0 auto; position:relative; cursor:default;}
+.floor3 .mid_wrap .f3_icon{
+	z-index:111;
+	position:absolute;
+	width:62px;
+	height:62px;
+	border-radius:50%;
+	-o-border-radius:50%;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	background-position:center center;
+	background-repeat:no-repeat;
+	}
+.floor3 .mid_wrap .f3_icon01{background-color:#ffb469; background-image:url(/style/css/img/f3_icon01.png); top:54px; left:10px;}
+.floor3 .mid_wrap .f3_icon02{background-color:#ff8d8f; background-image:url(/style/css/img/f3_icon02.png); top:54px; right:10px;}
+.floor3 .mid_wrap .f3_icon03{background-color:#8ccd51; background-image:url(/style/css/img/f3_icon03.png); top:208px; left:10px;}
+.floor3 .mid_wrap .f3_icon04{background-color:#73d2ff; background-image:url(/style/css/img/f3_icon04.png); top:208px; right:10px;}
+.floor3 .mid_wrap .f3_icon05{width:110px; height:126px; background:url(/style/css/img/f3_icon05.png) no-repeat center center; text-align:center; z-index:222;}
+.floor3 .mid_wrap .f3_icon05 span{font-size:18px; color:#fff; line-height:125px;}
+
+
+.floor3 .text{position:absolute; width:320px; cursor:default;}
+.floor3 .text h2{font-size:18px; color:#666;}
+.floor3 .text p{font-size:14px; color:#999;}
+
+
+
+/*floor4*/
+.floor4{background:#f9f9f9;}
+
+.floor4 ul{margin-top:110px; margin-bottom:20px;}
+.floor4 ul li{width:220px; height:270px; background:#fff; background-position:center bottom; background-repeat:no-repeat; background-image:url(/style/css/img/f4_bg.png); transition:0.5s; float:left; margin:0 10px; cursor:default;}
+.floor4 ul li:hover{background-image:url(/style/css/img/f4_bg-.png);}
+
+.floor4 ul li .li_top{position:relative;}
+.floor4 ul li .circle_wrap{
+	width:70px;
+	height:70px;
+	border-radius:50%;
+	-o-border-radius:50%;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-width:2px;
+	border-style:solid;
+	border-color:transparent;
+	transition:0.5s;
+	}
+.floor4 ul li:hover .circle_wrap{border-color:#04adf4;}
+
+.floor4 ul li .circle{
+	width:60px;
+	height:60px;
+	border-radius:50%;
+	-o-border-radius:50%;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	background: linear-gradient(-90deg,#cccccc,#1cccccc); /* æ ‡å‡†çš„è¯­æ³• */
+	background: -webkit-linear-gradient(-90deg,#cccccc,#cccccc); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(-90deg,#cccccc,#cccccc); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(-90deg,#cccccc,#cccccc); /* Firefox 3.6 - 15 */
+	transition:0.5s;
+	}
+.floor4 ul li:hover .circle	{
+	background: linear-gradient(-90deg,#00b0ed,#1dd6f7); /* æ ‡å‡†çš„è¯­æ³• */
+	background: -webkit-linear-gradient(-90deg,#00b0ed,#1dd6f7); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(-90deg,#00b0ed,#1dd6f7); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(-90deg,#00b0ed,#1dd6f7); /* Firefox 3.6 - 15 */
+	}
+
+.floor4 ul li h2{font-size:16px; color:#666; padding:50px 0 30px 0; text-align:center;}
+.floor4 ul li img{width:39px; height:35px;}
+.floor4 ul li span{font-size:12px; color:#999; background-image: url(/style/css/img/f4_hook.png); background-repeat:no-repeat; background-position:left center; padding-left:15px; margin-left:30px; display:inline-block;}
+
+/*floor5*/
+.floor5{background:#fff;}
+.floor5 ul{position:relative; margin-top:100px; margin-bottom:50px;}
+.floor5 ul li{text-align:center; float:left; cursor:default; margin:0 39px;}
+.floor5 ul li img{transition:0.5s;}
+.floor5 ul li:hover img{
+    opacity:0.5;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter:gray;
+	}
+.floor5 ul li span{position:relative;z-index:222;width:20px;height:20px;display:block;margin:40px auto 10px;background:#08A5E0;color:#fff;font-size:14px;border-radius:50%;-o-border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;}
+.floor5 ul li p{font-size:16px; color:#666;}
+.floor5 ul .line{width:1000px; height:1px; background:#dedede; position:absolute; top:140px; left:0; right:0; margin:auto; z-index:111;}
+/*ruanwen end*/

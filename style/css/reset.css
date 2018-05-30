@@ -1,0 +1,139 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{
+		/*font-size:12px;*/
+		font-family:"微软雅黑",Arial, Helvetica, sans-serif;
+}
+.clear{
+	clear:both;
+	font-size:0px;
+	height:0px;
+	line-height:0px;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {    
+    margin:0;   
+     padding:0;  
+	list-style:none;
+} 
+input,textarea{
+	border:0 none;
+	background:none;
+}
+body img{
+  border:none;
+}
+a{
+ color:#000;
+ border:0;
+ text-decoration:none;
+}
+a:hover{
+  /*color:#f00;*/
+  text-decoration:none;
+}
+/*合并边线,边线空间至零.*/
+table { 
+     border-collapse:collapse;   
+     border-spacing:0;   
+} 
+/*清除边线*/
+fieldset,img {    
+     border:0;   
+} 
+ol,ul { 
+     list-style:none;   
+} 
+caption,th { 
+     text-align:left;   
+} 
+h1,h2,h3,h4,h5,h6 { 
+     font-size:100%;   
+     font-weight:normal;   
+} 
+.row_01{ overflow:hidden;font-family: microsoft yahei;}
+.row_01 .head_i2 {
+    text-align: center;
+    height: 130px;
+}
+.row_01 .head_i2 h2 {
+    color: #454545;
+    font-size: 38px;
+    height: 66px;
+    line-height: 60px;
+}
+.bk40 {
+    height: 40px;
+}
+.row_01 .head_i2 h3,.row_01 .head_i2 p {
+   
+    font-size: 14px;
+  
+}
+.row_01 .head h2 {
+	height:66px;
+	line-height:60px;
+	font-size:38px;
+	color:#454545;
+}
+.row_01 .head h3 {
+	font-size:18px;
+}
+.row_01 .head p {
+	height:22px;
+	line-height:22px;
+	color:#454545;
+}
+.row_01 .body ul li {
+	width:256px;
+	float:left;
+	margin:0px 22px;
+	*display:inline;
+}
+.row_01 .body .thumb {
+	width:142px;
+	height:142px;
+	padding:10px 55px;
+}
+.row_01 .body .thumb a {
+	display:block;
+	width:142px;
+	height:142px;
+}
+.row_01 .body .desc {
+	padding:20px 0px;
+}
+.row_01 .body .desc h3 {
+	height:36px;
+	line-height:36px;
+	font-size:16px;
+	color:#454545;
+	text-align:center;
+}
+.row_01 .body .desc p {
+	line-height:22px;
+	color:#6d6d6d;
+	text-indent:2em;
+}
+.row_01 .body li.i1 a {
+	background:url(../images/icon_01.png) no-repeat;
+}
+.row_01 .body li.i2 a {
+	background:url(../images/icon_02.png) no-repeat;
+}
+.row_01 .body li.i3 a {
+	background:url(../images/icon_03.png) no-repeat;
+}
+.row_01 .body li.i4 a {
+	background:url(../images/icon_04.png) no-repeat;
+}
+.row_01 .body li a:hover {
+	text-decoration:none;
+	color:#08A5E0;
+}
+.row_01 .body .desc h3 a {
+	color:#454545;
+	background:none;
+}
+.row_01 .body .desc h3 a:hover {
+	color:#08A5E0;
+}

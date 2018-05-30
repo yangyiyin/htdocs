@@ -1,0 +1,201 @@
+﻿@charset "utf-8";
+
+#sliderBox {
+	width: 100%;
+	max-width: 1920px;
+	min-width: 1040px;
+	height: 724px;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+}
+.slides > li {
+	display: none;
+	-webkit-backface-visibility: hidden;
+}
+/* Hide the slides before the JS is loaded. Avoids image jumping */
+
+.slides > li.banner1 {
+	background: url(img/banner1.jpg) center;
+	width: 1040px;
+	height: 724px;
+	cursor: pointer;
+}
+.slides > li.banner2 {
+	background: url(img/banner2.jpg) center;
+	width: 1040px;
+	height: 724px;
+	cursor: pointer;
+}
+.slides > li.banner3 {
+	background: url(img/banner3.jpg) center;
+	width: 1040px;
+	height: 724px;
+	cursor: pointer;
+}
+.slideTitle {
+	text-align: center;
+	opacity: 1;
+	position: relative;
+	top: 60px;
+}
+.slideText {
+	text-align: center;
+	opacity: 1;
+	position: relative;
+	top: 66%;
+}
+.flex-control-nav {
+	position: absolute;
+	bottom: 20px;
+	left: 48%;
+	z-index: 10;
+	opacity: 0.8;
+}
+.flex-control-nav li {
+	margin-left: 10px;
+	display: inline-block;
+	zoom: 1;
+	font-size: 0;
+	*display: inline;
+}
+.flex-control-paging li a {
+	padding: 8px;
+	border-radius: 100%;
+	background: #ccc;
+	cursor: pointer;
+	border: 1px solid #ccc;
+}
+.flex-control-paging li a:hover {
+	border: 1px solid #777;
+	/*background-color:#666;*/
+}
+.flex-control-paging li a.flex-active {
+	background-color: #666;
+	border: 1px solid #666;
+}
+.svrBox {
+	background: #f4f4f4;
+	padding: 16px;
+	padding-top: 20px;
+	padding-bottom: 28px;
+	border-radius: 8px;
+	height: 198px;
+	box-shadow: 0px 1px 2px #ccc;
+	overflow: hidden;
+}
+.container1 {
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+.container1 .undefine {
+	background: #f4f4f4;
+	margin-left: 20px;
+	height: 243px;
+	padding-bottom: 0;
+	border-radius: 8px;
+	box-shadow: 0px 1px 2px #ccc;
+	overflow: hidden;
+}
+.f28 {
+	font-size: 50px;
+}
+.svrBox>ul {
+	font-size: 22px;
+	color: #555;
+}
+.svrBox>ul li {
+	line-height: 1.4;
+}
+footer {
+	text-align: center;
+	background: #fafafa;
+}
+footer>img {
+	width: 1040px;
+}
+.container2 {
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+.container2 .undefine {
+	background: #f4f4f4;
+	height: 243px;
+	border-radius: 8px;
+	box-shadow: 0px 1px 2px #ccc;
+	overflow: hidden;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-ms-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+.container2 .active:hover {
+	background: #f1f1f1;
+}
+.container2 .newsBox {
+	background: #fff;
+	border: 1px solid #ddd;
+	position: relative;
+}
+.container2 .newsDetails {} .newsDetailsT {
+	background: -webkit-linear-gradient(#FFFFFF, #F6F6F6);
+	background: -moz-linear-gradient(#FFFFFF, #F6F6F6);
+	background: -o-linear-gradient(#FFFFFF, #F6F6F6);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#FFFFFF), to(#F6F6F6));
+	background: linear-gradient(#FFFFFF, #F6F6F6);
+	box-shadow: 0px 0px 2px #ddd;
+	padding: 12px;
+	border-bottom: 1px solid #ddd;
+}
+.newsDetails li {
+	border-bottom: 1px solid #ddd;
+	padding: 13px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 14px;
+	
+	color: #666;
+}
+.container2 .ml20 {
+	margin-left: 20px;
+}
+.container2 .ml10 {
+	margin-left: 10px;
+}
+.container2 .mr10 {
+	margin-right: 10px;
+}
+li.noBorderB {
+	border-bottom-width: 0;
+}
+.newsDetails li a{
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-ms-transition: 0.2s;
+	transition: 0.2s;
+	color: #444;
+}
+
+.newsDetails li a:hover {
+	color: #0093dd;
+}
+.moreTips {
+	position: absolute;
+	right: 12px;
+	top: 19px/*33px*/;
+	font-size: 12px;
+	color: #666;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-ms-transition: 0.2s;
+	transition: 0.2s;
+}
+.moreTips:hover {
+	color: #0093dd;
+}
+.undefine.gfBox {
+	background: #fff;
+	border: 1px solid #ddd;
+}

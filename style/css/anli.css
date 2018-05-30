@@ -1,0 +1,319 @@
+@import url("font-awesome.css?2017");
+.init-banner{  width: 100%; position: relative; display:table;}
+.init-banner img{width: 100%;}
+.init-banner .text{
+	position: absolute;
+	width: 100%;
+	top:50%;
+	transform:translateY(-50%);
+}
+.init-banner .text h3{text-align: center; color: #fff;font-size: 40px;
+    line-height: 40px;font-weight: 700;
+    margin-bottom: 20px;}
+.init-banner .text p{text-align: center; color: #fff; line-height: 25px; max-width:30%; margin: auto;  font-size: 18px; }
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, caption, canvas, center, cite, code, dd, del, details, dfn, dialog, div, dl, dt, em, embed, fieldset, figcaption, figure, form, footer, header, hgroup, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, tt, table, tbody, textarea, tfoot, thead, time, tr, th, td, u, ul, var, video {
+    font-family: Arial, Helvetica,'Microsoft Yahei', 'Hiragino Sans GB', sans-serif;
+    font-size: 100%;
+    font-weight: inherit;
+    font-style: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+.page-title {
+    position: relative;
+    padding: 20px 0px 40px;
+    display: table;
+    overflow: hidden;
+    width: 100%;
+}
+.page-title .breadcrumbs, .page-title .page-content {
+    width: 50%;
+    display: table-cell;
+    vertical-align: middle;
+}
+.page-title .breadcrumbs {
+	text-align: left;
+}
+.page-title .page-content {
+   	text-align: right;
+}
+.page-title .page-content span {
+    font-size: 22px;
+    color: #182331;
+    line-height: 23px;
+}
+.mgl2 {
+    margin-left: 2px;
+}
+.breadcrumbs ul {
+	padding-top: 0;
+}
+.breadcrumbs ul li {font-size: 14px;
+	display: inline-block;	
+	position: relative;
+	padding-right: 11px;
+	margin-right: 8px;
+	font-weight: 400;
+	color: #03B3FF;
+}
+.breadcrumbs ul li:last-child {
+	margin-right: 0;
+	padding-right: 0;
+}
+.breadcrumbs ul li a {	
+    color: #b2b1b8;    
+    font-weight: 400;    
+}
+.breadcrumbs ul li a:hover {
+	color: #03B3FF;
+}
+.breadcrumbs ul li:before {
+	position: absolute;
+	right: 0px;
+    top: 0;
+	font-family: 'FontAwesome';
+	content:"\f105";
+	
+	color: #b2b1b8;
+	
+	
+}
+.breadcrumbs ul li:last-child::before {
+	width: 0;
+	height: 0;
+	background-color: transparent;
+	content: "";
+}
+.flat-row {
+    clear: both;
+    display: block;
+    position: relative;
+    padding: 48px 0 39px 0px;
+}
+.flat-row.v8 {
+    padding: 40px 0px;
+}
+.m-b-20 {
+    margin-bottom: 20px;
+}
+article.post.clearfix {
+    padding-bottom: 11px;
+    border-bottom: 1px solid #e5e5e5;
+    -webkit-transition: all 0.4s ease-in-out;
+       -moz-transition: all 0.4s ease-in-out;
+        -ms-transition: all 0.4s ease-in-out;
+         -o-transition: all 0.4s ease-in-out;
+            transition: all 0.4s ease-in-out;
+}
+.post ul li {
+	position: relative;
+}
+.post .featured-post {
+    margin-bottom: 30px;
+}
+.detail-sidebar .post .featured-post {
+    margin-right: -2px;
+}
+.post .content-post {
+	padding-left: 3px;
+}
+.post .content-post h2.title-post {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.content-post h2.title-post a {
+    color: #182331;
+}
+.content-post h2.title-post a:hover,
+.post .content-post ul.meta-post li a:hover,
+.post .content-post .social-links li a:hover,
+.comment-list .comment-metadata .comment-info h5 a:hover {
+    color: #03B3FF;
+}
+.post .content-post ul.meta-post {
+    margin-bottom: 24px;
+}
+.post .content-post ul.meta-post li {
+    display: inline-block;
+    padding-right: 7px;
+    color: #a9b6c6;
+}
+.post .content-post ul.meta-post li::after {
+	position: absolute;
+	right: 0;
+	top: 5px;
+	content: "";
+	width: 2px;
+	height: 13px;
+	background: #b6c1ce;
+}
+.post .content-post ul.meta-post li:last-child:after {
+	content: none;
+}
+.post .content-post ul.meta-post li a {
+	color: #a9b6c6;
+}
+.post .entry.excerpt p {
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+.post .entry.excerpt .entry-content-text p:last-of-type {
+    margin-bottom: 42px;
+}
+article.post.style2 {padding:0px;
+	border-bottom: none;
+	padding-bottom: 0;
+	box-shadow: 0px 12px 13px 0px rgba(0, 0, 0, 0.15);
+}
+article.post.style2:hover {
+	-webkit-transform: translateY(-10px);
+	   -moz-transform: translateY(-10px);
+	    -ms-transform: translateY(-10px);
+	     -o-transform: translateY(-10px);
+	        transform: translateY(-10px);
+}
+article.post.style2:hover .featured-post img {
+	opacity: 0.5;
+}
+.post.style2 .featured-post {
+    margin-bottom: 0px;
+    background-color: #03B3FF;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.post.style2 .content-post {
+    padding: 24px 29px 18px 29px; 
+}
+.post.style2 .content-post h5.title-post {
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.post.style2 .content-post h5.title-post a {
+	color: #3c3a42;
+}
+.post.style2 .content-post h5.title-post a:hover,
+.post.style2 .content-post ul.meta-post li a:hover {
+	color: #03B3FF;
+}
+.post.style2 .content-post ul.meta-post {
+    margin-bottom: 0px;
+}
+.post.style2 .content-post ul.meta-post li {
+	color: #ababab;
+	padding-left: 18px;
+	padding-right: 7px;
+	font-family: 'MyriadPro-Regular';
+}
+.post.style2 .content-post ul.meta-post li.day-time {
+	padding-left: 16px;
+	padding-right: 0;
+}
+.post.style2 .content-post ul.meta-post li::before {
+	position: absolute;
+	left: 0;
+	top: -1px;
+	font-family: 'FontAwesome';
+	content: "\f0e5";
+}
+.post.style2 .content-post ul.meta-post li.day-time::before {
+	content: "\f017";
+}
+.post.style2 .content-post ul.meta-post li::after {
+	content: none;
+}
+.post.style2 .content-post ul.meta-post li a {
+    color: #ababab;
+}
+.post.style2 .content-post.style2 {
+    padding: 25px 25px 19px 33px;
+}
+.post.style2 .content-post.style3 {
+    padding: 24px 29px 18px 28px;
+}
+/* Home-gird-Sidebar
+-------------------------------------------------------------- */
+.post.style2.smalls .content-post h5.title-post {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+.post.style2.smalls .content-post h5.title-post a {
+    color: #182331;
+}
+.post.style2.smalls .content-post,
+.post.style2.smalls .content-post.style2 {
+    padding: 16px 14px 20px 19px;
+}
+.post.style2.smalls .content-post.style3 {
+    padding: 16px 14px 20px 18px;
+}
+.post.style2.smalls .content-post ul.meta-post li {
+	font-size: 14px;
+}
+.content-post a:link{color: #646a7c !important;}
+.content-post a:hover{color: #03B3FF !important;}
+.post.style2.column .content-post .readmore {
+	position: relative;
+	font-size: 12px;
+	font-weight: 700;
+	color: #03B3FF;
+}
+.post.style2.column .content-post h2.title-post {
+	font-size: 18px;
+	line-height: 30px;
+	margin-bottom: 4px;
+	overflow:hidden;white-space:nowrap;text-overflow:ellipsis;
+}
+.post.style2.column .content-post p {
+	line-height: 24px;
+	margin-bottom: 5px;
+	height: 96px;
+	overflow:hidden;
+	font-size:14px;
+}
+.m-t-20{
+	margin-top: 20px;
+}
+.blog-pagination .flat-pagination li {
+	position: relative;
+	display: inline-block;
+	margin-right: 2px;
+}
+.blog-pagination .flat-pagination li a {
+	display: inline-block;
+    color: #232530;
+    border-radius: 2px;
+    border: 1px solid #e5e5e5;
+    padding: 7px 14px 4px 11px;
+}
+.blog-pagination .flat-pagination li.active a {
+	padding: 7px 15px 4px 14px;
+}
+.blog-pagination .flat-pagination li.next a {
+	padding: 7px 33px 4px 11px;
+}
+.blog-pagination .flat-pagination li.next::after {
+	position: absolute;
+	right: 17px;
+	top: 7px;
+	font-family: 'FontAwesome';
+    content: "\f101";
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+.blog-pagination .flat-pagination li a:hover,
+.blog-pagination .flat-pagination li.active a,
+.blog-pagination .flat-pagination li.next:hover:after {
+	color: #03B3FF;
+}
+.container.case .featured-post img{
+	width: 100%;height:200px;vertical-align: middle;
+}

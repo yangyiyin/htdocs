@@ -1,0 +1,145 @@
+﻿@charset "utf-8";
+/*reset*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0;vertical-align: baseline;}
+body {font-size:100%;line-height: 1.5;font-family: Arial,'Microsoft Yahei',STHeiti,sans-serif;}
+ol, ul,li {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+:focus {outline: 0;}
+a{text-decoration: none;color: #333;}
+table {border-collapse: collapse;border-spacing: 0;}
+
+/*font stlye*/
+h1{font-size: 36px;}
+h2{font-size: 30px;}
+h3{font-size: 24px;}
+h4{font-size: 18px;}
+h5{font-size: 14px;}
+h6{font-size: 12px;}
+.f12{font-size:12px;}
+.f14{font-size:14px;}
+.f15{font-size:15px;}
+.f16{font-size:16px;}
+.f18{font-size:18px;}
+.f20{font-size:20px;}
+.textL	{text-align:left;}
+.textR	{text-align:right;}
+.textC	{text-align:center;}
+.fontN{font-weight: normal;}
+.fontB	{font-weight: bold;}
+
+.blueD { color: #001f3f; }
+.blue { color: #0074d9; }
+.blueL { color: #7fdbff; }
+
+.greenD { color: #3d9970; }
+.green { color: #2ecc40; }
+.greenL { color: #39cccc; }
+
+.yellow { color: #ffdc00; }
+.orange { color: #ff851b; }
+.red { color: #ff1515; }
+
+.pink { color: #ef1276; }
+.purple { color: #b10dc9; }
+.maroon { color: #85144b; }
+
+.white { color: #ffffff; }
+.silver { color: #dddddd; }
+.gray { color: #aaaaaa; }
+.black { color: #222222; }
+
+/*btn style*/
+.btn { 
+	display: inline-block; 
+	padding: .5em 1em; 
+	border: 0 none; 
+	border: 1px solid rgba(0,0,0,.25); 
+	border-radius: 0.3em; 
+	background-image: none; 
+	box-shadow: 0 1px 1px rgba(0,0,0,.1), inset 0 1px rgba(255,255,255,.15); 
+	color: #fff; 
+	text-align: center; 
+	text-decoration: none; 
+	text-shadow: 1px 1px rgba(0,0,0,.1); 
+	cursor: pointer;
+}
+.btn:hover, .btn:focus { text-decoration: none; background-image: linear-gradient(to bottom, rgba(0,0,0,.1), rgba(0,0,0,.1));}
+.btn:active { box-shadow: 0 1px rgba(0,0,0,.2), inset 0 1px rgba(0,0,0,.05); outline: none; 
+}
+
+.btn-blueD { background-color: #001f3f; }
+.btn-blue { background-color: #0074d9; }
+.btn-blueL { background-color: #7fdbff; }
+
+.btn-greenD { background-color: #3d9970; }
+.btn-green { background-color: #2ecc40; }
+.btn-greenL { background-color: #39cccc; }
+
+.btn-yellow { background-color: #ffdc00; }
+.btn-orange { background-color: #ff851b; }
+.btn-red { background-color: #ff1515; }
+
+.btn-pink { background-color: #ef1276; }
+.btn-purple { background-color: #b10dc9; }
+.btn-maroon { background-color: #85144b; }
+
+.btn-white { background-color: #ffffff; }
+.btn-gray { background-color: #aaaaaa; }
+.btn-silver { background-color: #dddddd; }
+.btn-black { background-color: #222222; }
+.btn-white, .btn-silver { color: #111111;  text-shadow: none; }
+
+/*show&hide*/
+.dShow{display:block;}
+.dHide{display:none;}
+.vShow{visibility: visible;}
+.vHide{visibility:hidden;}
+.oShow{overflow: auto;}
+.oHide{overflow: hidden;}
+
+/*grid system 1/10*/
+.grid{
+	min-width: 960px;
+	max-width: 1200px;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	*zoom:1;
+}
+.grid [class*="span"]{float: left;}
+.span1{width: 0.99%;}
+.span2{width: 19.99%;}
+.span3{width: 29.99%;}
+.span4{width: 39.99%;}
+.span5{width: 49.99%;}
+.span6{width: 59.99%;}
+.span7{width: 69.99%;}
+.span8{width: 79.99%;}
+.span9{width: 89.99%;}
+.offset1{margin-left: 9.99%;}
+.offset2{margin-left: 19.99%;}
+.offset3{margin-left: 29.99%;}
+.offset4{margin-left: 39.99%;}
+.offset5{margin-left: 49.99%;}
+.offset6{margin-left: 59.99%;}
+.offset7{margin-left: 69.99%;}
+.offset8{margin-left: 79.99%;}
+.offset9{margin-left: 89.99%;}
+.span33{
+	width: 32%;
+	margin-left: 20px;
+}
+.noMarginL{
+	margin-left:0 ;
+}
+
+/*custom*/
+.floatL	{float: left;}
+.floatR	{float: right;}
+.clear	{clear:both;}
+.clearfix{*zoom:1;}
+.clearfix:after {content:".";display:block;height:0;clear:both;visibility:hidden;}
+.del {text-decoration: line-through;}
+.transition{-webkit-transition: all 0.25s ease-in;-moz-transition: all 0.25s ease-in;-ms-transition: all 0.25s ease-in;transition: all 0.25s ease-in;}
+.auto{margin-left: auto;margin-right: auto;}

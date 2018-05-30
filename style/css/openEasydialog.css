@@ -1,0 +1,22 @@
+.easyDialog_wrapper{ width:530px;color:#444; border:1px solid #efefef; background:#fff;-moz-box-shadow:0 0 5px #ccc;-webkit-box-shadow:0 0 5px #ccc; box-shadow:0 0 5px #ccc; display:none; font-family:"Microsoft yahei", Arial; }
+
+.easyDialog_wrapper .easyDialog_content{ -moz-box-shadow:0 0 5px #ccc;-webkit-box-shadow:0 0 5px #ccc; box-shadow:0 0 5px #ccc; }
+
+.easyDialog_wrapper .easyDialog_title{  background:repeat-x; height:40px; line-height:40px; overflow:hidden; color:#333; padding:0 20px; font:16px/40px Microsoft YaHei; border-bottom:1px solid #e5e5e5; border-radius:4px 4px 0 0; }
+
+.easyDialog_wrapper .easyDialog_text{ padding:25px 10px; text-align:center;font-size:13px; line-height:22px; }
+
+.easyDialog_wrapper .easyDialog_text textarea{vertical-align:text-top}
+
+.easyDialog_wrapper .close_btn{ background: no-repeat scroll 0 0 rgba(0, 0, 0, 0);width:25px;height:25px; position:absolute;top:9px;right:8px; z-index:11; text-decoration:none; float:right;padding:5px 0;color:#E5E5E5}
+
+.easyDialog_wrapper .easyDialog_footer{ padding:0 10px; text-align:center  }
+
+.easyDialog_wrapper .easyDialog_footer:after{ content:''; display:block; height:0; overflow:hidden; visibility:hidden; clear:both; }
+
+.easyDialog_wrapper .btn_highlight,
+
+.easyDialog_wrapper .btn_normal{ background:no-repeat; background-position: 0 -250px;display:inline-block;*display:inline;*zoom:1;border:none; cursor:pointer;color:#fff; width:115px;height:44px;font:18px/40px Microsoft YaHei;margin-bottom:30px}
+.checkcodeimg{
+	BACKGROUND: url(../images/getcode.png) no-repeat; WIDTH:60px; HEIGHT:25px; MARGIN-TOP:9px; margin-left:10px; float:left; padding-top:1px; padding-left:3px;padding-bottom:10px;line-height:20px;
+}
